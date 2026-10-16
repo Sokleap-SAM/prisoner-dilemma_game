@@ -1,7 +1,7 @@
 import random
 
-from game import Game
-from human_player import HumanPlayer
+from prisoners_dilemma.game import Game
+from prisoners_dilemma.players.human_player import HumanPlayer
 
 
 class Tournament:

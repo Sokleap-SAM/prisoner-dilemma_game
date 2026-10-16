@@ -1,5 +1,5 @@
-from human_player import HumanPlayer
-from payoff_matrix import PayoffMatrix
+from prisoners_dilemma.players.human_player import HumanPlayer
+from prisoners_dilemma.payoff_matrix import PayoffMatrix
 
 
 class Game:

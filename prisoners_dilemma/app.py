@@ -1,9 +1,9 @@
-from computer_player import ComputerPlayer
-from console import Console
-from game import Game
-from human_player import HumanPlayer
-from payoff_matrix import PayoffMatrix
-from tournament import Tournament
+from prisoners_dilemma.players.computer_player import ComputerPlayer
+from prisoners_dilemma.console import Console
+from prisoners_dilemma.game import Game
+from prisoners_dilemma.players.human_player import HumanPlayer
+from prisoners_dilemma.payoff_matrix import PayoffMatrix
+from prisoners_dilemma.tournament import Tournament
 
 
 class PrisonersDilemmaApp:
