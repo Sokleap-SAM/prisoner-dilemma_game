@@ -39,7 +39,9 @@ class Game:
             self.player2.moves.append(move2)
             self.player2.points.append(points2)
 
-            if self.has_human():
+            # With n rounds, the choices and points are not shown after each
+            # round; they appear in the results at the end of the game.
+            if self.has_human() and self.rounds == 1:
                 self.print_round(move1, move2, points1, points2)
         return True
 
