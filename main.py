@@ -12,20 +12,13 @@ Game modes:
 
 Type 0 at any menu to go back. Type 0 during a game to quit it.
 
-One class per file:
-    console.py                Console              - reads what the user types, prints tables
-    payoff_matrix.py          PayoffMatrix         - the points for every combination of choices
-    player.py                 Player               - base class: name, moves made, points earned
-    human_player.py           HumanPlayer          - a person who types C or D
-    computer_player.py        ComputerPlayer       - a computer that follows a strategy
-    game.py                   Game                 - plays the rounds between two players
-    tournament.py             Tournament           - knockout rounds until one champion is left
-    prisoners_dilemma_app.py  PrisonersDilemmaApp  - the menus that tie everything together
+Application code lives in the prisoners_dilemma package.
+See README.md for the project layout.
 
 Run:  python main.py
 """
 
-from prisoners_dilemma_app import PrisonersDilemmaApp
+from prisoners_dilemma.app import PrisonersDilemmaApp
 
 if __name__ == "__main__":
     try:

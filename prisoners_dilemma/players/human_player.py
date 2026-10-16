@@ -1,4 +1,4 @@
-from player import Player
+from prisoners_dilemma.players.player import Player
 
 
 class HumanPlayer(Player):
